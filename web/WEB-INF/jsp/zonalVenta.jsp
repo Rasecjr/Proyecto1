@@ -1,9 +1,3 @@
-<%-- 
-    Document   : zonalVenta
-    Created on : 22/11/2020, 02:47:34 AM
-    Author     : José
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

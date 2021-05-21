@@ -1,7 +1,0 @@
-@startuml
-autonumber
-Usuario -> UI: Ingresa producto, cantidad
-UI -> CCProductos: Busca
-CCProductos --> UI: Cantidad de productos disponible
-UI --> Usuario: Cantidad disponible
-@enduml

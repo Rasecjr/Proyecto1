@@ -1,9 +1,3 @@
-<%-- 
-    Document   : layout
-    Created on : 22/11/2020, 01:52:03 AM
-    Author     : José
---%>
-
 <%@page import="java.util.List"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="utp.gestion.common.businessObject.UsuarioLoginIndOutput"%>

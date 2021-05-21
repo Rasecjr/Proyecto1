@@ -1,9 +1,3 @@
-<%-- 
-    Document   : modalFactura
-    Created on : 18/12/2020, 12:05:18 AM
-    Author     : José
---%>
-
 <div class="modal" tabindex="-1" role="dialog" id="modalfactura">
     <div class="modal-dialog-centered" role="document" style="margin-left:5px;padding-left:5px">
         <div class="modal-content">

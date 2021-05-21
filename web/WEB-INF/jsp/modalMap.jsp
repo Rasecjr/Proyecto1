@@ -1,9 +1,3 @@
-<%-- 
-    Document   : modalMap
-    Created on : 18/12/2020, 12:05:07 AM
-    Author     : José
---%>
-
 <!--modal mapa-->
 <style>
 

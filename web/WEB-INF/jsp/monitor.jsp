@@ -1,9 +1,3 @@
-<%-- 
-    Document   : monitor
-    Created on : 03/12/2020, 02:41:14 AM
-    Author     : José
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

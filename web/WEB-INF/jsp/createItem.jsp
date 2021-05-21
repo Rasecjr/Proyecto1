@@ -1,9 +1,3 @@
-<%-- 
-    Document   : create
-    Created on : 02/12/2020, 12:56:18 AM
-    Author     : José
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
