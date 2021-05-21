@@ -1,0 +1,319 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.table-head-Ransa {
+    font-size: 14px !important;
+}
+
+.table-body-Ransa {
+    font-size: 16px;
+}
+
+.header-segundo {
+    width: 180px;
+}
+
+
+.text-align-responsive {
+    text-align: right !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .text-align-responsive {
+        text-align: left !important;
+    }
+}
+paddingTop-0 {
+    padding-top:5px !important;
+}
+
+.paddingTop-5 {
+    padding-top: 5px !important;
+}
+
+.paddingRight-10 {
+    padding-right: 10px !important;
+}
+
+.paddingLeft-10{
+    padding-left:10px !important;
+}
+.paddingLeft-20 {
+    padding-left: 20px !important;
+}
+.paddingLeft-30 {
+    padding-left: 30px !important;
+}
+.paddingLeft-50 {
+    padding-left: 50px !important;
+}
+
+.paddingBottom-10 {
+    padding-bottom: 10px !important;
+}
+
+.textoBold {
+    font-weight:bold !important;
+}
+.paddingTop-30 {
+	padding-top: 30px;
+}
+
+.paddingLeft-50 {
+	padding-left: 50px;
+}
+
+.marginBottom-20 {
+	margin-bottom: -20px;
+}
+
+.marginTop-0{
+    margin-top: 0px !important;
+}
+.marginTop-10{
+    margin-top: 10px !important;
+}
+
+.paddingRight-100 {
+    padding-right: 100px;
+}
+.marginRight-5 {
+    margin-right: 5px;
+}
+.profile-img-card {
+    width: 100%;
+    height: auto;
+    margin: 0 auto 10px;
+    display: block;
+}
+
+.loading {
+    position: fixed;
+    top: 45%;
+    left: 44%;  
+    width: 500px;   
+    height: 250px;
+    margin-left: -150px;
+    margin-top: -100px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    /* needed styles for the overlay */
+    z-index: 99999; /* keep on top of other elements on the page */
+    box-shadow: 0 0 0 9999px rgba(0,0,0,0.5);
+    /* Absolute Center Spinner */
+}
+
+.form-control-disabled {
+	/*background-color: #dddddd !important;*/
+	background-color: #e9ecef !important;
+}
+
+.big-checkbox {
+    width: 20px;
+    height: 20px;
+    transform: scale(1);
+    -moz-transform: scale(1.2);
+    margin-top: 3px;
+}
+#btnSeleccionarArchivo::after {
+	background-color: #28a745 !important;
+	content: 'Seleccionar';
+	color: white;
+}
+
+#nombreArchivo::after {
+	background-color: #28a745 !important;
+	content: 'Seleccionar';
+	color: white;
+}
+
+.panel-content-border {
+	border-bottom: 1px solid #dee2e6;
+	border-left: 1px solid #dee2e6;
+	border-right: 1px solid #dee2e6;
+}
+
+.big-radioButton {
+	width: 20px;
+	height: 2.5rem ;
+	transform: scale(1);
+	-moz-transform: scale(1.2);
+	margin-top: 0px;
+}
+
+.big-checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+[aria-expanded="true"] .fa-chevron-circle-up,
+[aria-expanded="false"] .fa-chevron-circle-down {
+    display: none;
+}
+
+/* Tooltip Estado */
+.tooltip-estado {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+    .tooltip-estado .tooltiptext {
+        width: 200px;
+        /*top: 100%;*/
+        bottom: 100%;
+        left: 50%;
+        margin-left: -100px;
+        /*height: 2.5rem;*/
+        visibility: hidden;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        font-size: 12px;
+        position: absolute;
+        z-index: 999;
+        /*z-index: 1;*/
+        /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+        opacity: 0;
+        transition: opacity 1s;
+    }
+
+    .tooltip-estado:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+    }
+
+/* Tooltip Estado Alternativo */
+.tooltip-estado-alt {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+    .tooltip-estado-alt .tooltiptext-alt {
+        width: 200px;
+        /*top: 100%;*/
+        bottom: 100%;
+        left: 50%;
+        margin-left: -100px;
+        /*height: 2.5rem;*/
+        visibility: hidden;
+        /*width: 200px;
+		top: 100%;*/
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        font-size: 12px;
+        position: absolute;
+        z-index: 1;
+        /*z-index: 1;*/
+        /*bottom: 100%;*/
+        /*left: 50%;
+		margin-left: -180px;*/
+        /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+        opacity: 0;
+        transition: opacity 1s;
+    }
+
+    .tooltip-estado-alt:hover .tooltiptext-alt {
+        visibility: visible;
+        opacity: 1;
+    }
+
+.btn-index {
+    width: 37px;
+}
+
+.btn-index-eliminar {
+    width: 37px;
+    margin-top: 3px;
+}
+
+
+.text-danger-custom {
+    color: #dc3545 !important;
+}
+
+.centrarVerticalmente {
+    vertical-align: middle !important;
+}
+
+.centrar {
+    text-align: center !important;
+}
+.ultima-fila-reporte-color {
+    background-color: #c3e6cb !important;
+}
+.negrita{
+
+    font-weight:700;
+}
+.select2-selection__choice {
+    float: none !important;
+    display: inline-block !important;
+  
+}
+.select2-selection__rendered {
+    display: -webkit-inline-box !important;
+    /*display: inline-block;*/
+    height: 45px !important;
+    overflow: -moz-hidden-unscrollable !important;
+    overflow-x: hidden !important;
+    scrollbar-arrow-color: aqua;
+    -ms-scrollbar-base-color: black;
+    scrollbar-base-color: black;
+}
+
+.select2-selection__clear {
+    float: left !important;
+ 
+}
+
+.DireccionLineas {
+    height: 35px;
+    font-size: 1.063em;
+    cursor: pointer;
+}
+.tamanio-imagen-file {
+    height: 22px !important
+}
+.btn-index-Carpetas {
+    width: 22px;
+    padding: 1px;
+}
+
+.btn-index-eliminar-Carpetas {
+    width: 22px;
+    padding: 1px;
+}
+
+/*Petro America Item*/
+
+.table-head-PetroAmaerica {
+    font-size: 14px !important;
+    color:white;
+}
+
+.btn-link-head {
+    font-weight: 400;
+    color: #FFFFFF;
+    border-radius: 0;
+    cursor:pointer;
+}
