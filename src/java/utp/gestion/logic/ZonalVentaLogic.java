@@ -19,10 +19,7 @@ import utp.gestion.common.businessObject.CoberturaQueryOutput;
 import utp.gestion.common.businessObject.ZonalVentaInput;
 import utp.gestion.data.ZonalVentaDAO;
 
-/**
- *
- * @author José
- */
+
 public class ZonalVentaLogic {
     private final ZonalVentaDAO dao = new ZonalVentaDAO();
     

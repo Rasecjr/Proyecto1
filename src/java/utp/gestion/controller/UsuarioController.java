@@ -26,10 +26,7 @@ import utp.gestion.common.businessObject.UsuarioInput;
 import utp.gestion.common.businessObject.UsuarioLoginIndOutput;
 import utp.gestion.logic.UsuarioLogic;
 
-/**
- *
- * @author José
- */
+
 @Controller
 public class UsuarioController {
     @RequestMapping(value = "/usuario")

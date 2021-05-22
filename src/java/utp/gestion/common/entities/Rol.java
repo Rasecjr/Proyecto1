@@ -9,10 +9,7 @@ import java.util.List;
 import utp.gestion.classes.SingleQuery;
 import utp.gestion.common.businessObject.RolMenuQuery;
 
-/**
- *
- * @author José
- */
+
 public class Rol extends SingleQuery{
     private String id;
     private String codigo;

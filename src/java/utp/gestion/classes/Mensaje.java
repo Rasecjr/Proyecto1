@@ -1,14 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package utp.gestion.classes;
 
-/**
- *
- * @author José
- */
 public class Mensaje {
     public static String DatosInvalidos = "Los datos ingresados son inv\u00e1lidos.";
     public static String ErrorServidor="Comun\u00edquese con Soporte T\u00e9cnico";

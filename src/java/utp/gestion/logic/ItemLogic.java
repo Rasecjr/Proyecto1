@@ -20,10 +20,7 @@ import utp.gestion.classes.BaseInputEntity;
 import utp.gestion.classes.SingleQuery;
 import utp.gestion.data.RepositoryDAO;
 
-/**
- *
- * @author José
- */
+
 public class ItemLogic {
     private final ItemDAO dao = new ItemDAO();
     private final RepositoryDAO _repository = new RepositoryDAO();

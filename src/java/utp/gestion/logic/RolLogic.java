@@ -18,10 +18,7 @@ import utp.gestion.classes.Status;
 import utp.gestion.common.businessObject.RolInput;
 import utp.gestion.data.RolDAO;
 import utp.gestion.data.RepositoryDAO;
-/**
- *
- * @author José
- */
+
 public class RolLogic {
     private final RolDAO dao = new RolDAO();
     private final RepositoryDAO _repository = new RepositoryDAO();

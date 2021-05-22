@@ -5,10 +5,7 @@
  */
 package utp.gestion.common.businessObject;
 
-/**
- *
- * @author José
- */
+
 public class ZonalVentaUbicacionInput 
 {
     private int orden;

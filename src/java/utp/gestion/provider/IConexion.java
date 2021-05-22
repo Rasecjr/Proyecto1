@@ -7,11 +7,7 @@ package utp.gestion.provider;
 
 import java.sql.Connection;
 
-        
-/**
- *
- * @author José
- */
+
 public interface IConexion {
     public Connection geConnection() throws Exception;
     public void closeConnection(Connection cnx) throws Exception;

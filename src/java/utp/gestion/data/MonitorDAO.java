@@ -19,10 +19,7 @@ import utp.gestion.classes.Status;
 import utp.gestion.provider.Conexion;
 import utp.gestion.provider.IConexion;
 
-/**
- *
- * @author José
- */
+
 public class MonitorDAO {
     private final IConexion conexion = new Conexion();
 

@@ -8,10 +8,7 @@ package utp.gestion.logic;
 import utp.gestion.classes.DataQuery;
 import utp.gestion.data.MonitorDAO;
 
-/**
- *
- * @author José
- */
+
 public class MonitorLogic {
     private final MonitorDAO dao = new MonitorDAO();   
  

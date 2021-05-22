@@ -26,10 +26,7 @@ import utp.gestion.common.entities.Item;
 import utp.gestion.provider.Conexion;
 import utp.gestion.provider.IConexion;
 
-/**
- *
- * @author José
- */
+
 public class ItemDAO {
     private final IConexion conexion = new Conexion();
     

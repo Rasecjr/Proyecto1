@@ -18,10 +18,7 @@ import org.springframework.web.portlet.ModelAndView;
 import utp.gestion.classes.DataQuery;
 import utp.gestion.logic.MonitorLogic;
 
-/**
- *
- * @author José
- */
+
 @Controller
 public class MonitorController {
     @RequestMapping(value = "/monitor")

@@ -5,10 +5,7 @@
  */
 package utp.gestion.common.businessObject;
 
-/**
- *
- * @author José
- */
+
 public class DistritoQuery {
     private String IdUbigeo;
     private String Nombre;

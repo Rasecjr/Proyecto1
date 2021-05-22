@@ -7,10 +7,7 @@ package utp.gestion.common.businessObject;
 
 import utp.gestion.classes.DataQueryInput;
 
-/**
- *
- * @author José
- */
+
 public class PrecioBaseQueryInput extends DataQueryInput{
     private String idItem;
     private String clase;

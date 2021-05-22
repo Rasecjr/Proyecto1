@@ -23,10 +23,7 @@ import utp.gestion.common.businessObject.ZonalVentaUbicacionInput;
 import utp.gestion.provider.Conexion;
 import utp.gestion.provider.IConexion;
 
-/**
- *
- * @author José
- */
+
 public class ZonalVentaDAO {
     private final IConexion conexion = new Conexion();
     

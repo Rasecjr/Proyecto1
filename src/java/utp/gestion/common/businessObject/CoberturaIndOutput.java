@@ -7,10 +7,7 @@ package utp.gestion.common.businessObject;
 
 import utp.gestion.classes.SingleQuery;
 
-/**
- *
- * @author José
- */
+
 public class CoberturaIndOutput extends SingleQuery{
     private String id;
     

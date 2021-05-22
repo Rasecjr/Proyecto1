@@ -26,10 +26,6 @@ import utp.gestion.common.businessObject.PedidoQueryInput;
 import utp.gestion.common.businessObject.UsuarioLoginIndOutput;
 import utp.gestion.logic.PedidoLogic;
 
-/**
- *
- * @author José
- */
 @Controller
 public class PedidoController {
     @RequestMapping(value = "/pedido")

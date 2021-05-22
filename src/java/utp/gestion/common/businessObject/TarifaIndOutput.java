@@ -6,10 +6,7 @@
 package utp.gestion.common.businessObject;
 
 import utp.gestion.classes.SingleQuery;
-/**
- *
- * @author José
- */
+
 public class TarifaIndOutput extends SingleQuery{
     private double tarifa;
     

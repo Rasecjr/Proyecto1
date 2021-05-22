@@ -27,10 +27,7 @@ import utp.gestion.common.businessObject.PrecioBaseQueryInput;
 import utp.gestion.common.businessObject.UsuarioLoginIndOutput;
 import utp.gestion.logic.PrecioLogic;
 
-/**
- *
- * @author José
- */
+
 @Controller
 public class PrecioController {
     @RequestMapping(value = "/precio")

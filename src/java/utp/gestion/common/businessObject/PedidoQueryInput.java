@@ -7,10 +7,7 @@ package utp.gestion.common.businessObject;
 
 import utp.gestion.classes.DataQueryInput;
 
-/**
- *
- * @author José
- */
+
 public class PedidoQueryInput extends DataQueryInput{
     private String fechaInicio;
     private String fechaFin;

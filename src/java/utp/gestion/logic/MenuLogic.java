@@ -9,10 +9,7 @@ import utp.gestion.classes.DataQuery;
 import utp.gestion.classes.DataQueryInput;
 import utp.gestion.data.MenuDAO;
 
-/**
- *
- * @author José
- */
+
 public class MenuLogic {
     private final MenuDAO dao = new MenuDAO();
     

@@ -32,10 +32,7 @@ import utp.gestion.logic.ItemLogic;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.tomcat.util.codec.binary.Base64;
 
-/**
- *
- * @author José
- */
+
 @Controller
 public class ItemController {
     @RequestMapping(value = "/item")

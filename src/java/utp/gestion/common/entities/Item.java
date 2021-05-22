@@ -7,10 +7,6 @@ package utp.gestion.common.entities;
 
 import utp.gestion.classes.SingleQuery;
 
-/**
- *
- * @author José
- */
 public class Item extends SingleQuery{
     private String id;
     private String codigo;

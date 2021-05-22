@@ -24,10 +24,7 @@ import utp.gestion.common.businessObject.UsuarioLoginIndOutput;
 import utp.gestion.common.businessObject.UsuarioLoginInput;
 import utp.gestion.logic.LoginLogic;
 
-/**
- *
- * @author José
- */
+
 @Controller
 public class indexController {
     @RequestMapping(value = "/index")

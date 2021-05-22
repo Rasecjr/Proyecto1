@@ -8,10 +8,7 @@ package utp.gestion.common.entities;
 import java.time.LocalDateTime;
 import utp.gestion.classes.SingleQuery;
 
-/**
- *
- * @author José
- */
+
 public class PrecioBase extends SingleQuery{
     private String id;
     private double precio;

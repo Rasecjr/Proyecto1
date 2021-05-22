@@ -5,10 +5,7 @@
  */
 package utp.gestion.common.businessObject;
 
-/**
- *
- * @author José
- */
+
 public class UsuarioRolQuery {
     private String id;
     private String codigo;

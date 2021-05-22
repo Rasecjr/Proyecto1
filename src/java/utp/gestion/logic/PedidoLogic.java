@@ -26,10 +26,6 @@ import utp.gestion.data.ItemDAO;
 import utp.gestion.data.PedidoDAO;
 
 
-/**
- *
- * @author José
- */
 public class PedidoLogic {
     private final PedidoDAO dao = new PedidoDAO();
     private final ItemDAO daoItem = new ItemDAO();

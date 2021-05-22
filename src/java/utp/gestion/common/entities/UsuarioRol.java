@@ -7,10 +7,7 @@ package utp.gestion.common.entities;
 
 import utp.gestion.classes.BaseEntity;
 
-/**
- *
- * @author José
- */
+
 public class UsuarioRol extends BaseEntity{
     private String id;
     private String idRol;

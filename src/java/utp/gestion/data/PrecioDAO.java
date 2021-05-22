@@ -27,10 +27,6 @@ import utp.gestion.common.entities.PrecioBase;
 import utp.gestion.provider.Conexion;
 import utp.gestion.provider.IConexion;
 
-/**
- *
- * @author José
- */
 public class PrecioDAO {
     private final IConexion conexion = new Conexion();
     

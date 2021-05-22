@@ -18,10 +18,7 @@ import utp.gestion.classes.DataQuery;
 import utp.gestion.classes.DataQueryInput;
 import utp.gestion.logic.MenuLogic;
 
-/**
- *
- * @author José
- */
+
 @Controller
 public class MenuController {
     @RequestMapping(value = "/menu/search",method = RequestMethod.GET)

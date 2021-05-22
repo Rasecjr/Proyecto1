@@ -9,10 +9,7 @@ import java.util.List;
 import utp.gestion.common.businessObject.DistritoQuery;
 import utp.gestion.data.UbigeoDAO;
 
-/**
- *
- * @author José
- */
+
 public class UbigeoLogic {
     private final UbigeoDAO dao = new UbigeoDAO();
     

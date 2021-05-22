@@ -5,10 +5,6 @@
  */
 package utp.gestion.common.businessObject;
 
-/**
- *
- * @author José
- */
 public class RolMenuQuery {
     private String id;
     private String codigo;

@@ -21,10 +21,7 @@ import com.google.gson.Gson;
 import java.io.PrintWriter;
 import org.springframework.ui.ModelMap;
 
-/**
- *
- * @author José
- */
+
 @Controller
 public class UbigeoController {
     @RequestMapping(value = "/ubigeo/search",method = RequestMethod.GET)

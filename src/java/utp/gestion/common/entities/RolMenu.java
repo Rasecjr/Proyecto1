@@ -7,10 +7,6 @@ package utp.gestion.common.entities;
 
 import utp.gestion.classes.BaseEntity;
 
-/**
- *
- * @author José
- */
 public class RolMenu extends BaseEntity{
     private String id;
     private String idMenu;

@@ -18,10 +18,7 @@ import utp.gestion.classes.Status;
 import utp.gestion.common.businessObject.UsuarioInput;
 import utp.gestion.data.UsuarioDAO;
 
-/**
- *
- * @author José
- */
+
 public class UsuarioLogic {
     private final UsuarioDAO dao = new UsuarioDAO();
     

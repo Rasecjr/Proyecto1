@@ -30,10 +30,7 @@ import utp.gestion.common.entities.PedidoItem;
 import utp.gestion.provider.Conexion;
 import utp.gestion.provider.IConexion;
 
-/**
- *
- * @author José
- */
+
 public class PedidoDAO {
     private final IConexion conexion = new Conexion();
     

@@ -26,10 +26,7 @@ import utp.gestion.common.businessObject.RolInput;
 import utp.gestion.common.businessObject.UsuarioLoginIndOutput;
 import utp.gestion.logic.RolLogic;
 
-/**
- *
- * @author José
- */
+
 @Controller
 public class RolController {
     @RequestMapping(value = "/rol")

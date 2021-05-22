@@ -8,10 +8,6 @@ package utp.gestion.common.businessObject;
 import java.util.List;
 import utp.gestion.classes.BaseInputEntity;
 
-/**
- *
- * @author José
- */
 public class ZonalVentaInput extends BaseInputEntity
 {
     private String id;

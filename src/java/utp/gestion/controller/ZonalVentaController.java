@@ -26,10 +26,7 @@ import utp.gestion.common.businessObject.UsuarioLoginIndOutput;
 import utp.gestion.common.businessObject.ZonalVentaInput;
 import utp.gestion.logic.ZonalVentaLogic;
 
-/**
- *
- * @author José
- */
+
 @Controller
 public class ZonalVentaController {
     @RequestMapping(value = "/zonalVenta")

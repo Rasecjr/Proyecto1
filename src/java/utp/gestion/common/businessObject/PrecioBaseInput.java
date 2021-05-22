@@ -7,10 +7,6 @@ package utp.gestion.common.businessObject;
 
 import utp.gestion.classes.BaseInputEntity;
 
-/**
- *
- * @author José
- */
 public class PrecioBaseInput  extends BaseInputEntity{
     private String id;
     private String idItem;

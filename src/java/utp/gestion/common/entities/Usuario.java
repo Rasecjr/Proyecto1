@@ -10,10 +10,7 @@ import utp.gestion.classes.BaseEntity;
 import utp.gestion.classes.SingleQuery;
 import utp.gestion.common.businessObject.UsuarioRolQuery;
 
-/**
- *
- * @author José
- */
+
 public class Usuario extends SingleQuery{
     private String id;
     private String codigo;

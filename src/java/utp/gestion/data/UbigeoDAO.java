@@ -15,10 +15,7 @@ import utp.gestion.common.businessObject.DistritoQuery;
 import utp.gestion.provider.Conexion;
 import utp.gestion.provider.IConexion;
 
-/**
- *
- * @author José
- */
+
 public class UbigeoDAO {
     private final IConexion conexion = new Conexion();
     

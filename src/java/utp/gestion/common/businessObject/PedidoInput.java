@@ -8,10 +8,7 @@ package utp.gestion.common.businessObject;
 import java.util.List;
 import utp.gestion.classes.BaseInputEntity;
 
-/**
- *
- * @author José
- */
+
 public class PedidoInput  extends BaseInputEntity{
     private String id;
     private String fechaPedido;

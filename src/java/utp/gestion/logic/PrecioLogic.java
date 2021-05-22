@@ -19,10 +19,7 @@ import utp.gestion.common.businessObject.PrecioBaseInput;
 import utp.gestion.data.PrecioDAO;
 import utp.gestion.data.RepositoryDAO;
 
-/**
- *
- * @author José
- */
+
 public class PrecioLogic {
     private final PrecioDAO dao = new PrecioDAO();
     private final RepositoryDAO _repository = new RepositoryDAO();

@@ -8,10 +8,7 @@ package utp.gestion.common.businessObject;
 import java.util.List;
 import utp.gestion.classes.SingleQuery;
 
-/**
- *
- * @author José
- */
+
 public class UsuarioLoginIndOutput extends SingleQuery{
     private String id;
     private String codigo;
