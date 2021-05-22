@@ -26,7 +26,7 @@ public class Conexion implements IConexion{
     }
 
     public Connection geConnection() throws Exception {
-        String conexionUrl = "jdbc:sqlserver://DESKTOP-HHJ0213\\SQLEXPRESS:49672;databaseName=Cobertura;user=sa;password=123456";
+        String conexionUrl = "jdbc:sqlserver://DESKTOP-HHJ0213\\SQLEXPRESS:1434;databaseName=Cobertura;user=sa;password=123456";
         
         try{
             System.out.println("Conectado.");
